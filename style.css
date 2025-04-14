@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-custom {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .icon-bar {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .icon-bar i {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-bar i:hover {
+    color: goldenrod;
+  }
+  
+  .custom-navbar {
+    background-color: pink;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  
+  .custom-navbar .nav-link {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    background-color: white;
+    color: black !important;
+  }
+  
+  
+  #heroSlider {
+    width: 100%;
+    height: 500px; /* Set your desired height here */
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  #heroSlider .carousel-item img {
+    height: 500px; /* Match the height above */
+    object-fit: cover;
+  }
+  
+  .shop-now-btn {
+    display: block;
+    margin: 30px auto 0 auto; /* Moves it down & centers */
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: pink;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  .featured-collections {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .brand-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+  
+  .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .collection-card {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .collection-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .collection-card img {
+    width: 100%;
+    height: 300px; /* Set the same height for all images */
+    object-fit: cover; /* This crops the image to fill the area */
+    display: block;
+  }
+  
+  
+  .collection-label {
+    background: #fff;
+    font-weight: 500;
+    padding: 15px;
+    font-size: 0.9rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .icon-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+  }
+  
+  .icon-links a {
+    color: #000; /* or your brand color */
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .icon-links a:hover {
+    color: #c59d5f; /* gold tone or hover effect */
+  }
+  
+  /* === Login Page Styling === */
+  
+  .auth-container {
+    width: 90%;
+    max-width: 400px;
+    background: pink;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #c59d5f;
+  }
+  
+  .link-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .link-text a {
+    color: #c59d5f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-text a:hover {
+    text-decoration: underline;
+  }

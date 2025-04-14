@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register | ARNO Jewelss</title>
+  <link rel="icon" href="images/logo.png" />
+  <meta name="description" content="Create your ARNO Jewelss account." />
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-custom">
+    <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap py-3 px-4">
+      <!-- Logo -->
+      <div class="d-flex align-items-center">
+        <img src="images/logo.png" alt="ARNO Logo" style="height: 100px; width: auto; margin-right: 10px;" />
+        <h1 class="logo-text m-0">ARNO JEWELSS</h1>
+      </div>
+
+      <!-- Search + Icons -->
+      <div class="d-flex flex-column flex-md-row align-items-center gap-2">
+        <form class="d-flex" role="search">
+          <input class="form-control" type="search" placeholder="Search..." />
+        </form>
+        <div class="icon-links">
+          <a href="wishlist.html" title="Wishlist">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="cart.html" title="Shopping Bag">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </div>        
+  </header>
+
+  <!-- Register Form -->
+  <div class="auth-container">
+    <h2>Create Your Account</h2>
+    <form action="dashboard.html" method="post" onsubmit="return validateRegisterForm()">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="1234567890">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" minlength="6" required placeholder="••••••••">
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" minlength="6" required placeholder="••••••••">
+
+      <button type="submit">Register</button>
+
+      <div class="link-text">
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
