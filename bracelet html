@@ -1,0 +1,30 @@
+<!-- Bracelets -->
+    <h2>Bracelets</h2>
+
+    <div class="product-card">
+      <img src="images/bracelet9.jpeg" alt="Arno-401 Bracelet">
+      <h3>Arno-401 Bracelet</h3>
+      <p>£15</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/bracelet2.jpeg" alt="Arno-402 Bracelet">
+      <h3>Arno-402 Bracelet</h3>
+      <p>£15</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/bracelet3.jpeg" alt="Arno-403 Bracelet">
+      <h3>Arno-403 Bracelet</h3>
+      <p>£15</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/bracelet4.jpeg" alt="Arno-404 Bracelet">
+      <h3>Arno-404 Bracelet</h3>
+      <p>£15</p>
+      <button>Add to Cart</button>
+    </div>
