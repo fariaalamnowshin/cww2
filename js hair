@@ -1,0 +1,18 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const filterButtons = document.querySelectorAll(".filter-buttons button");
+  const sections = document.querySelectorAll("main section");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+
+      sections.forEach(section => {
+        if (filter === "all" || section.classList.contains(filter)) {
+          section.style.display = "block";
+        } else {
+          section.style.display = "none";
+        }
+      });
+    });
+  });
+});
