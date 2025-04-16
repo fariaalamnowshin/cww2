@@ -223,3 +223,125 @@ body {
   .link-text a:hover {
     text-decoration: underline;
   }
+.best_sellers-item {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .best_sellers-:hover {
+    transform: scale(1.02);
+  }
+  
+  .best_sellers img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .best_sellers-info {
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .heart-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 2;
+  }
+  
+  .heart-icon.active {
+    color: red;
+  }
+  
+  .quantity-controls button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0;
+    border-radius: 6px;
+  }
+  
+  .quantity-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .category-tile {
+    flex: 1;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .category-tile:hover {
+    transform: scale(1.03);
+  }
+  
+  .category-tile span {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-tile:hover span {
+    background-color: rgba(0, 0, 0, 0.6);
+  } 
+
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .cookie-banner p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
+  .cookie-buttons {
+    flex-shrink: 0;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 576px) {
+    .cookie-buttons {
+      margin-top: 0;
+    }
+  }
+  
