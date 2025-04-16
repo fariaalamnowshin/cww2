@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.header-custom {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Icons */
+.icon-bar {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.icon-bar i {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon-bar i:hover {
+  color: goldenrod;
+}
+
+/* Custom Navbar Styling */
+.custom-navbar {
+  background-color: pink;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: black !important;
+}
